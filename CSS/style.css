@@ -12,8 +12,8 @@ body {
   border-bottom-style: none;
   padding-bottom: 10px;
   padding-top: 5px;
-  font-size: 12px;
   display: inline;
+  font-size: 12px;
   border-right-style: none;
   font-weight: 800; }
 
@@ -22,8 +22,8 @@ body {
   border-bottom-style: none;
   padding-bottom: 10px;
   padding-top: 5px;
-  font-size: 12px;
   display: inline;
+  font-size: 12px;
   font-weight: 600;
   color: blue;
   text-decoration: underline dotted; }
@@ -70,7 +70,7 @@ body {
 
 .line2 {
   border: dotted 1px #DCDCDC;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   padding-top: 10px;
   border-right: none;
   border-left: none; }
@@ -91,9 +91,7 @@ body {
 .order-style {
   font-size: 17px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding: 10px 0 10px 10px; }
 
 .order-style-item {
   text-decoration: underline;

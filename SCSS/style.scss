@@ -2,32 +2,35 @@ body {
   background: #F5F5F5;
 }
 
+$font-stack: Myriad Pro, serif;
+
 .title {
   font-size: 27px;
-  font-family: Myriad Pro, serif;
+  font-family: $font-stack;
   font-weight: 100;
   margin-left: 60px;
+
 }
 
-.header1 {
+@mixin border-for-header () {
   border: 1px solid #DCDCDC;
   border-bottom-style: none;
   padding-bottom: 10px;
   padding-top: 5px;
-  font-size: 12px;
   display: inline;
+  font-size: $size;
+}
+$size: 12px;
+
+.header1 {
+  @include border-for-header();
 
   border-right-style: none;
   font-weight: 800;
 }
 
 .header2 {
-  border: 1px solid #DCDCDC;
-  border-bottom-style: none;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  font-size: 12px;
-  display: inline;
+  @include border-for-header();
 
   font-weight: 600;
   color: blue;
@@ -55,7 +58,8 @@ body {
   text-decoration: underline;
   padding-bottom: 20px;
 }
-.comment-margin-left{
+
+.comment-margin-left {
   margin-left: 15px !important;
 }
 
@@ -79,6 +83,11 @@ body {
 
 }
 
+@mixin line-one () {
+  border: dotted 1px #DCDCDC;
+  margin-bottom: 15px;
+}
+
 .line1 {
   border: 1px none #DCDCDC;
   border-top-style: dotted;
@@ -86,16 +95,14 @@ body {
 }
 
 .line2 {
-  border: dotted 1px #DCDCDC;
-  padding-bottom: 15px;
+  @include line-one();
   padding-top: 10px;
   border-right: none;
   border-left: none;
 }
 
 .line3 {
-  border: dotted 1px #DCDCDC;
-  margin-bottom: 15px;
+  @include line-one();
   padding-top: 15px;
   border-left: none;
   border-right: none;
@@ -111,9 +118,7 @@ body {
 .order-style {
   font-size: 17px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0 10px 10px;
 }
 
 .order-style-item {
