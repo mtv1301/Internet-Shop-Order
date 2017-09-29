@@ -1,0 +1,132 @@
+body {
+  background: #F5F5F5; }
+
+.title {
+  font-size: 27px;
+  font-family: Myriad Pro, serif;
+  font-weight: 100;
+  margin-left: 60px; }
+
+.header1 {
+  border: 1px solid #DCDCDC;
+  border-bottom-style: none;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-size: 12px;
+  display: inline;
+  border-right-style: none;
+  font-weight: 800; }
+
+.header2 {
+  border: 1px solid #DCDCDC;
+  border-bottom-style: none;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-size: 12px;
+  display: inline;
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline dotted; }
+
+.recipient {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0 20px 10px; }
+
+.delivery {
+  font-size: 16px;
+  font-weight: 600; }
+
+.contact {
+  color: #A9A9A9;
+  font-weight: 100;
+  text-align: left; }
+
+.comment {
+  text-decoration: underline;
+  padding-bottom: 20px; }
+
+.comment-margin-left {
+  margin-left: 15px !important; }
+
+.create-order {
+  border-radius: 25px !important;
+  width: 200px;
+  font-size: 15px !important; }
+
+.order {
+  border: 1px solid #DCDCDC; }
+
+@media screen and (min-width: 1200px) {
+  .order {
+    margin-left: 60px; }
+  .header1 {
+    margin-left: 60px; } }
+
+.line1 {
+  border: 1px none #DCDCDC;
+  border-top-style: dotted;
+  margin-bottom: 15px; }
+
+.line2 {
+  border: dotted 1px #DCDCDC;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-right: none;
+  border-left: none; }
+
+.line3 {
+  border: dotted 1px #DCDCDC;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border-left: none;
+  border-right: none; }
+
+.line4 {
+  border: 1px none #DCDCDC;
+  padding-top: 15px;
+  border-top-style: dotted;
+  padding-left: 40px; }
+
+.order-style {
+  font-size: 17px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.order-style-item {
+  text-decoration: underline;
+  padding-top: 10px;
+  font-weight: 600;
+  margin-left: 10px; }
+
+.price {
+  color: #A9A9A9;
+  margin-left: 10px;
+  padding-top: 8px; }
+
+.total-price {
+  padding-top: 8px;
+  font-weight: 600;
+  text-align: right; }
+
+.promotion-order-image {
+  padding-top: 15px; }
+
+.sum {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 7px;
+  padding-bottom: 7px; }
+
+.label-text-left {
+  text-align: left !important;
+  margin-left: 15px; }
+
+.comment-reference {
+  cursor: pointer; }
+
+#commentInput {
+  display: none;
+  resize: none; }
